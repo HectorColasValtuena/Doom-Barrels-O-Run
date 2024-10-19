@@ -11,7 +11,7 @@ maps
 		resources
 		{
 		}
-		defaultfloortexture = "BLOOD1";
+		defaultfloortexture = "MARBGRAY";
 		defaultceiltexture = "F_SKY1";
 		defaulttoptexture = "STARTAN2";
 		defaultwalltexture = "STARTAN2";
@@ -28,9 +28,9 @@ maps
 		overrideceilheight = false;
 		overridebrightness = false;
 		uselongtexturenames = false;
-		viewpositionx = -2241.689f;
-		viewpositiony = -16348.93f;
-		viewscale = 1.461917f;
+		viewpositionx = -1256.374f;
+		viewpositiony = -15390.5f;
+		viewscale = 0.2802128f;
 		scriptcompiler = "zdoom_acs.cfg";
 		
 		grid
@@ -41,7 +41,7 @@ maps
 			backoffsety = 0;
 			backscalex = 100;
 			backscaley = 100;
-			gridsize = 32;
+			gridsize = 128;
 			gridrotate = 0;
 			gridoriginx = 0;
 			gridoriginy = 0;
@@ -73,6 +73,23 @@ maps
 			autocloseonsuccess = true;
 			exitcodeiserror = true;
 			stderriserror = true;
+		}
+		
+		plugins
+		{
+			
+			threedfloormode
+			{
+				
+				controlsectorarea
+				{
+					usecustomtagrange = false;
+					outerleft = -512;
+					outerright = 0;
+					outertop = 512;
+					outerbottom = 0;
+				}
+			}
 		}
 	}
 }
