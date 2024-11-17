@@ -1,0 +1,9 @@
+[zdl.save]
+file0=D:/Doom/Barrels-O-Fun/Barrels-O-Fun.wad
+skill=4
+warp=MAP02
+port=GZDoom
+
+[zdl.general]
+conflib=sunrise
+
